@@ -1,0 +1,93 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: first baseline;
+    background-image: url(https://s3.sa-east-1.amazonaws.com/object.belezanaweb.com.br/loucas/wordpress/prod/sites/1/2021/11/30133303/banner-expert_suas-unhas-seu-estilo.jpg);
+    height: 500px;
+    
+    
+}
+#logo {
+    border-radius: 50%;
+}
+figure {
+    text-align: center;
+}
+h1 {
+    margin-top: 15px;
+    margin-left: 80px;
+    display:flex;
+    position: right;
+}
+p {
+    text-align: justify;
+}
+h4 {
+    text-align: justify;
+}
+#mutley {
+    border-radius: 20%;
+    border:none;
+    margin-left:150px;
+}
+#caricatura {
+    margin-left:150px;  
+}
+#unhas {
+    margin: 150px
+}
+
+
+
+#aprovacao {
+    border-radius: 20%;
+    margin-left: 120px;
+    
+}
+#evolucao {
+    border-radius: 20%;
+    margin-left: 30px;
+   
+}
+#alien {
+    border-radius: 20%;
+    margin-left: 90px;
+    border: double;
+}
+
